@@ -9,8 +9,8 @@
 <img align="right" src="pic/zakozako~.svg" width="100px" alt="zakozako~">
  
 # Action-Build
-**```Build Kernels for All OnePlus Devices```**
->更高效 更全面 更快速 更稳定
+ 
+<img src="https://readme-typing-svg.herokuapp.com?font=Meslo+Nerd+Font&size=32&duration=2800&pause=2000&color=A855F7&center=true&vCenter=true&width=940&lines=Welcome+to+Action+Build!;Build+Kernels+For+All+OnePlus+Devices;Your+Device,+Your+Rules!;更高效+更全面+更快速+更稳定+全自动化">
  
 禁止宣传**没有任何修改**的`fork`仓库，详见[LICENSE](LICENSE)
 <details>
@@ -89,20 +89,21 @@
  
 # 开发中的功能
 - [ ] Kexec内核热切换支持
-- [ ] LZ4跟随上游自动升级，[#178](https://github.com/Numbersf/Action-Build/pull/178)
 - [ ] 全内核版本风驰支持
 - 牙膏要一点一点挤,显卡要一刀一刀切,PPT要一张一张放,代码要一行一行写,更多功能及优化...敬请期待....
  
 # 更新日志
 >小的更新内容将被忽略 更多内容请参看提交
  
-- 完整适配`DroidSpaces`+`ntsync`  
+- 新增路径递推,完整适配内核版本`6.12+`的`Rust`构建逻辑和`bindgen`、`Kleaf`依赖，现在可以正常使用了  
+ 
+- `lz4`自动跟随上游升级以及自动纠错  
+ 
+- 完整适配`DroidSpaces`+`Ntsync`  
  
 - 完整适配`Re:Kernel`,自动跟随上游  
  
 - 多处启用外部警告-检查`fork源`是否正常、内核后缀构建时间是否存在异常符号调用等  
- 
-- 新增多个变量以及自动搜索,完整适配内核版本`6.12+`的`Rust`构建逻辑和依赖  
  
 - 完整的`KPN`修补支持  
  
